@@ -2,7 +2,7 @@
 
 Track A: Supervisor + Workers
 Student name: MOHAMMED ABDULLAH ALHAMMADI , YASSER AHMED ALASSIRI
-Programme / cohort: SDAIA Academy – DAICO | Agentic AI Systems Program | August 2026
+Programme / cohort: SDAIA Academy – DAICO | Agentic AI Systems Program | August 2026 [https://github.com/SDAIAAcademy]
 
 This project is an Automated Digital Forensics and Incident Response (AutoDFIR) triage system. It implements the **Track A: Supervisor (Multi-Agent Collaboration)** architecture to evaluate security alerts, check asset criticality, and search internal playbooks before recommending action.
 
