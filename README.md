@@ -6,6 +6,12 @@ Programme / cohort: SDAIA Academy – DAICO | Agentic AI Systems Program | Augus
 
 This project is an Automated Digital Forensics and Incident Response (AutoDFIR) triage system. It implements the **Track A: Supervisor (Multi-Agent Collaboration)** architecture to evaluate security alerts, check asset criticality, and search internal playbooks before recommending action.
 
+## How to Run
+1. Open the project notebook in Google Colab.
+2. Run the first cell to initialize the environment.
+3. When prompted, enter your **Groq API Key** and **LangSmith API Key** (ensure LangSmith tracing is enabled by typing `y`).
+4. Execute all remaining cells sequentially (or select **Runtime > Restart session and run all**) to view the multi-agent DFIR triage workflow in action.
+
 ### Rubric Checklist
 * **Rubric 1 (Agent Fundamentals):** Triage tools (`get_asset_context`, `extract_observables`, `calculate_risk_score`) are built using strict Pydantic schemas.
 * **Rubric 2 (Track A):** A Supervisor node uses structured output to route tasks between a Triage Worker and an Evidence Worker.
